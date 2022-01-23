@@ -57,6 +57,6 @@ leftSide.display();
 function keyPressed() {
   	if (keyCode === UP_ARROW) {
 		// Aplique a força aqui
-		Matter.Body.applyForce(ball, ball.position, {X:-0.001,y:-0.001})
+		Matter.Body.applyForce(ball, ball.position, {x:+131,y:-131})
   	}
 }
